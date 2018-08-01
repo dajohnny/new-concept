@@ -48,7 +48,7 @@ module.exports = {
   },
   plugins: [
     {src: '~plugins/element-ui', ssr: true},
-    {src: '~/plugins/axios.js'}
+    {src: '~plugins/axios.js'}
   ],
   css: [
     // 全部引用的时候需要用到

@@ -23,7 +23,7 @@
         </el-submenu>
       </el-submenu>
       <el-menu-item index="3" disabled>Info</el-menu-item>
-      <el-menu-item index="4"><a href="https://www.ele.me" target="_blank">Orders</a></el-menu-item>
+      <el-menu-item index="123" @click="$router.push('/hardstudy')">hardStudy</el-menu-item>
     </el-menu>
   </div>
 </template>

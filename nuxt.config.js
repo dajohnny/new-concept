@@ -48,11 +48,13 @@ module.exports = {
   },
   plugins: [
     {src: '~plugins/element-ui', ssr: true},
+    {src: '~plugins/iview.js', ssr: true},
     {src: '~plugins/axios.js'}
   ],
   css: [
     // 全部引用的时候需要用到
     'element-ui/lib/theme-chalk/index.css',
+    'iview/dist/styles/iview.css',
     '~/assets/css/reset.css'
   ],
   modules: [
